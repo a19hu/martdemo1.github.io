@@ -1,0 +1,35 @@
+
+  
+  
+  .box{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+   margin-bottom: 0px;
+   margin-right: 10px;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    
+    padding: 5px;
+  }
+  .box2{
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 40px;
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    
+  }
+  .box2:hover{
+     background-color: brown;
+    
+  }
+  .box2 a{
+    text-decoration: none;
+    color: aliceblue;
+  }

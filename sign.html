@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APNAmart</title>
+    <link rel="stylesheet" href="cssindex.css">
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:rgb(217, 212, 212);
+            
+            
+            color: rgb(3, 3, 3);
+
+        }
+        .headl{
+            border: 2px solid rgb(129, 198, 223);
+            height: 200px;
+            background-image: url('head.png');
+            background-size: 100% 100%;
+            
+         }
+         .logo {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            position: fixed;
+        }
+    
+        .logo img {
+            width: 150px;
+            height: 90px;
+            
+        }
+    
+        .logo div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+        .head{
+            border: 3px solid blueviolet;
+            width: 20%;
+            height: 80%;
+            background-color: rgb(217, 212, 232);
+            display: inline-block;
+            margin: 10% 37%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: left;
+            color: rgb(22, 23, 24);
+        }
+        .form{
+            margin: 5px;
+        }
+        .form input{
+            margin: 10px;
+           
+            width: 78%;
+            margin-left: 10%;
+        }
+        
+        
+        .class{
+            padding: 10px;
+        }
+        .continue{
+            width: 80%;
+            margin-left: 10%;
+            background-color: #d7c011;
+           height: 30px;
+           margin-top: 10px;
+        }
+        #new{
+          text-align: center;
+        }
+        #create{
+           background-color: beige;
+        }
+        .continue:hover{
+            cursor: pointer;
+            color: red;
+        }
+        .logo{
+            display: inline block;
+            border: 2px solid rgb(91, 110, 201);
+            border-radius: 20px;
+            width: 80%;
+            text-align: center;
+         margin-left: 4%;
+           background-color: #1e5bcc;
+           
+        }
+       .animatio {
+            animation: 3s ease-in 1s reverse both running slidein;
+          }
+          
+          @keyframes slidein {
+            from {
+              height: 0;
+              width: 0;
+            }
+          
+            to {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .head{
+            box-shadow: 10px 5px 5px rgb(93 82 82);
+          }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="logo (1).png" alt=""></a>
+        <div></div>
+    </div>
+   <div class="animation">
+     <header class="head"> <h1>Sign in</h1>
+    <div>
+        <form action="" class="form">
+           Enter mobile phone number:<br><input class="number" type="number" placeholder="phone number"><br>
+           <button class="continue">continue</button>
+           <p>By continuing, you agree to Mart's contition of use and privacy Notice.</p>
+        </form>
+        <div>
+            <hr><h4  id="new"> New account</h4>
+           <a href="demo.html"><button class="continue" id="create"> Create your MART account</button></a> 
+        </div>
+    </div></header>
+</div>
+   
+    
+      
+</body>
+</html>

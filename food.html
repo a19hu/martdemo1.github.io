@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         .head{
+            border: 2px solid rgb(129, 198, 223);
+            height: 200px;
+            background-image: url('head.png');
+            background-size: 100% 100%;
+            
+         }
+         .logo {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+    
+        .logo img {
+            width: 80px;
+            
+        }
+    
+        .logo div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: brown;
+        }
+        .container{
+            border: 1px solid black;
+         width: 20%;
+         margin: 20px;
+          }
+          
+          .container p{
+            text-align: center;
+          }
+          .box{
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: bisque;
+           margin-bottom: 0px;
+           margin-right: 5px;
+            width: 30%;
+            height: 20px;
+            margin-left: 40px;
+            
+            padding: 5px;
+          }
+          .box2{
+            border: 1px solid black;
+            margin: 10px;
+            margin-left: 40px;
+            width: 60%;
+            height: 20px;
+            background-color: black;
+            border-radius: 20px;
+            color: aliceblue;
+            
+          }
+          .box2:hover{
+             background-color: brown;
+            
+          }
+          .box2 a{
+            text-decoration: none;
+            color: aliceblue;
+          }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div>Mart</div>
+        </div>
+        
+
+    </header>
+    <h1>FOOD</h1>
+    <div class="container">
+        <a href=""><img src="red.png" alt=""></a>
+        <p>red house shope from indian mart</p>
+        <div class=""><input class="box" type="number" placeholder="count"></div>
+        <div class=""><button class="box2"><a href="https://www.youtube.com/watch?v=Vx7YkKpt-J4">add to card</a>  </button></div>
+    </div>
+    
+</body>
+</html>

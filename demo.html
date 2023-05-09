@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APNAmart</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="logo (1).png" alt=""></a>
+        <div></div>
+    </div>
+   
+    <header class="head"> <h1>Create Account</h1>
+    <div>
+        <form action="" class="form" method="main" name="submit-to-google-sheet">
+            Your name:<br><input class="number" type="text" placeholder="First and last name" name="name" required><br>
+            Mobile number:<br><input class="number" type="number" placeholder="phone number" name="phone" required><br>
+           Email:<br><input class="number" type="email" placeholder="email" name="email"><br>
+           Password:<br><input class="number" type="password" placeholder="password" name="password"><br>
+            <button class="continue" name="button">continue</button>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, possimus? Ex consequuntur facere nemo incidunt illo sit minus magni adipisci assumenda, a animi fuga! Odio quae facere modi? Nisi, aliquam!</p>
+
+        <span id="success"></span>
+    </form>
+</div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzjlkAE_wvyzZDL32v9K3Aa1YAAw9iFKfUVQMZV64uEy0WbuoKhF5SWvLQ9eDdJqmDH/exec'
+            const form = document.forms['submit-to-google-sheet']
+          const success = document.getElementById('success')
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+success.innerHTML="data successfully submit";
+
+setTimeout(function()
+{
+    success.innerHTML="";
+},5000)
+form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+</body>
+</html>

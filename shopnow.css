@@ -1,0 +1,36 @@
+.items a{
+    text-decoration: none;
+    color: rgb(240, 233, 233);
+   
+}
+.items h4{
+    border: 2px solid rgb(178, 20, 181);
+    border-radius: 20px;
+    background-color: #111010;
+    text-align: center;
+    
+    color: beige;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.items h4:hover{
+    background-color: #e20f0f;
+}
+
+
+
+.ajay{
+    border: 2px solid black;
+}
+.brandname{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+
+ 
+ 
+
+  

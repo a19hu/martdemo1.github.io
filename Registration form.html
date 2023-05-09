@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MART</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+            
+            
+            color: rgb(241, 246, 243);
+
+        }
+        .headl{
+            border: 2px solid rgb(129, 198, 223);
+            height: 200px;
+            background-image: url('head.png');
+            background-size: 100% 100%;
+            
+         }
+         .logo {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+    
+        .logo img {
+            width: 80px;
+            
+        }
+    
+        .logo div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+        .head{
+            border: 3px dotted blueviolet;
+            width: 20%;
+            height: 80%;
+            background-color: rgb(60, 12, 179);
+            display: inline-block;
+            margin: 10% 37%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            background-color: black;
+            color: aliceblue;
+        }
+        .form{
+            margin: 5px;
+        }
+        .form input{
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .submit{
+            background-color: aqua;
+        }
+        .submit:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header class="headl">
+        <div class="logo">
+            <img src="logo.png" alt="">
+            <div>Mart</div>
+        </div>
+
+    </header>
+    <header class="head"> <h1>Registration Form</h1>
+    <div>
+        <form action="" class="form">
+           Name:<input type="text" placeholder="FULL NAME"><br>
+           Email:<input type="email" placeholder="Email"><br>
+           Password:<input type="password" placeholder="password"><br>
+           Gender: <input type="radio" name="gender">Male
+           <input type="radio" name="gender">Female<br>
+           <input class="submit" type="submit" value="submit">
+        </form>
+    </div></header>
+   
+</body>
+</html>
