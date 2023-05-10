@@ -14,7 +14,12 @@ body{
  .fixt{
     top: 0;
     position: sticky;
+    z-index: 2;
  }
+.carousel{
+    z-index: -2;
+ }
+
  .logo {
     border: 2px solid transparent;
     display: inline-block;
@@ -96,7 +101,7 @@ text-align: center;
 .home a:hover{
     color:rgb(15, 2, 2);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid rebeccapurple;
+    border-bottom: 2px solid rgb(18, 17, 19);
    
      
     
