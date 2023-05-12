@@ -251,6 +251,9 @@ text-align: center;
  .carousel{
     z-index: -2;
  }
+ .hidden{
+    display: none;
+ }
  @media only screen and (max-width: 480px){
     body{
          margin-top: 0;
@@ -260,17 +263,17 @@ text-align: center;
     display: none;
    }
    .searchbar{
-    display:inline-block;
+    display:grid;
   
-    margin-left: 110px;
+    margin-left: 135px;
    }
    .searchbar input {
-    height: 10px;
-    width: 170px;
+    height: 40px;
+    width: 250px;
    }
    .logo img {
-    width: 90px;
-    height: 60px;
+    width: 135px;
+    height: 85px;
  
    }
    .logo{
@@ -281,10 +284,50 @@ text-align: center;
    .right {
     float:right;
     display: block;
-    margin:0;
-    border: none;
+    margin:17px 4px;
+    border: 2px solid black;
+    padding: 1px;
     
 }
+
+.nav li{
+    display: none;
+}
+.hidden{
+    display: contents;
+    
+}
+.summary{
+    background-color: #eb8d3b ;
+
+}
+.nav1{
+    background-color: #6b4b2f ; 
+}
+.list{
+    display: none;
+}
+.home1 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+.home1 a:hover{
+    color:rgb(15, 2, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid rgb(18, 17, 19);
+   
+     
+    
+}
+.lookitems{
+    width: 192px;
+}
+
+
+
 
 
 
