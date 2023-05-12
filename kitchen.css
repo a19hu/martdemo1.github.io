@@ -1,0 +1,33 @@
+.carousel img{
+  height: 600px;
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden ;
+}
+.nav{
+    height: 55px;
+    
+}
+.nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    margin: auto;
+    color: aliceblue;
+}
+.items h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: center;
+  
+    margin: 100px;
+    text-decoration:underline overline;
+}
+.items img{
+    height: 500px;
+    width: 60%;
+    margin: 34px 20%;
+}
+.name{
+    display: inline-block;
+    
+    margin: 10px;
+    color: black;
+}
